@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dictionary</title>
+</head>
+<body>
+<script>
+    var str = prompt('con xin người ban phước !!');
+    var UPPER = ['apple','banana','orange'];
+    var LOWER = ['táo','chuối','cam'];
+
+
+
+        if(UPPER.indexOf(str) != -1)
+        {
+            document.write(LOWER[UPPER.indexOf(str)]);
+
+        }
+        else if(LOWER.indexOf(str) != -1)
+        {
+            document.write(UPPER[LOWER.indexOf(str)]);
+        }
+        else
+        {
+            document.write('không tìm thấy');
+        }
+
+
+</script>
+</body>
+</html>
